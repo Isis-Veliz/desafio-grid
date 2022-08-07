@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png"><!--favicon-->
+    <!--<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Square+Peg&display=swap" 
+          rel="stylesheet">-->
+    <script src="https://kit.fontawesome.com/95b7815944.js" crossorigin="anonymous"></script>
+    <title>Desafío Grid</title>
+    
+</head>
+<body>
+  <main>
+     <!--para semantica colocar solo 1 h1-->
+    <header> <!--ecommerce-->      
+      <h1> Productos Mujer
+      </h1>    
+    </header> 
+
+    <aside> <!--menu de productos -->
+      <h3> Mujer</h3>
+      <br>
+      <div class="btn">  
+        <h4>Entrega</h4>           
+        <a href="#" target="_blank">Nuevo !!</a>      
+      </div>
+        <br>
+        <br>
+      <p style="margin-left: 10px; padding: 20px;">Categorías</p> 
+        <br>
+      <div class="contenedor"> <!--Profe esta parte la hice con un tabla scroll es que lo veia
+                                  en las paginas de retail y queria saber como se podian hacer
+                                 por eso lo agregue a este desafío-->
+        <ul>
+          <li>Billeteras (7)</li>
+          <li>Carteras (5)</li>
+          <li>Maletines (12)</li>
+          <li>Monederos (20)</li>
+          <li>Morrales (5)</li>
+          <li>Mochilas (10)</li>        
+        </ul>
+      </div>    
+      <br>
+      <br>
+      <p style="margin-left: 10px;">Descuentos</p> 
+      <br>    
+      <div class="contenedor">
+        <form>  
+          <!--Input se usa para crear controles
+            interactivos para formularios basados en la web con el fin de recibir datos del usuario.-->                      
+          <input type="checkbox"/> 20% dcto y más <!--el atributo type con el valor
+                                                  checkbox muestra la casilla cuadrada-->       
+          <br/>  
+          <br/>        
+          <input type="checkbox" checked="checked"/>30% dcto y más 
+                                    <!--si le coloco checked marca el cuadrado pero se usa con JS-->       
+          <br/>
+          <br/>          
+          <input type="checkbox"/>40%dcto y más
+          <br/>    
+          <br/>      
+          <input type="checkbox"/>50%dcto y más
+          <br/>        
+          <br/>  
+          <input type="checkbox"/>60%dcto y más
+        </form>
+      </div>
+    </aside>  
+
+    <section> <!--la seccion de productos-->                         
+      <article id="container">
+        <img src="assets/img/cartera 1.png" alt="cartera cloe">           
+        <div>
+          <h4>Cartera Cloe</h4>            
+          <h5>$ 12.990</h5>
+        </div> 
+        <br>            
+        <a href="#" target="_blank" style="margin-bottom: 10px; color:black">Compra aquí</a> 
+      </article> <!--las fotos de la seccion ocupar flexbox y en comprar ocupar elementos 
+                      hipervinculo inline-->                     
+      <article id="container">
+        <img src="assets/img/cartera 2.png" alt="cartera lorenzo">    
+        <div>
+          <h4> Cartera Lorenzo</h4>        
+          <h5> $ 14.990</h5>
+        </div>
+        <br>        
+        <a href="#" target="_blank" style="margin-bottom: 10px; color:black">Compra aquí</a>
+      </article>
+
+      <article id="container">
+        <img src="assets/img/cartera 3.png" alt="cartera lorenzo">    
+        <div>
+          <h4> Cartera Amanda</h4>        
+          <h5> $ 14.990</h5>
+        </div>
+        <br>        
+        <a href="#" target="_blank" style="margin-bottom: 10px; color:black">Compra aquí</a>      
+      </article>
+
+      <article id="container">
+        <img src="assets/img/cartera 4.png" alt="cartera lorenzo">    
+        <div>
+          <h4> Cartera Lorenzo</h4>        
+          <h5> $ 21.990</h5>
+        </div>
+        <br>        
+      <a href="#" target="_blank" style="margin-bottom: 10px; color:black">Compra aquí</a>
+      </article> 
+      
+      <article id="container">
+        <img src="assets/img/cartera 5.png" alt="cartera Necolas">    
+        <div>
+          <h4> Cartera Necolas</h4>        
+          <h5> $ 20.990</h5>
+        </div>
+        <br>        
+      <a href="#" target="_blank" style="margin-bottom: 10px; color:black">Compra aquí</a>
+      </article>    
+
+      <article id="container">
+        <img src="assets/img/cartera 6.png" alt="cartera lorenzo">    
+        <div>
+          <h4> Cartera lola</h4>        
+          <h5> $ 18.990</h5>
+        </div>
+        <br>        
+      <a href="#" target="_blank" style="margin-bottom: 10px; color:black">Compra aquí</a>
+      </article>    
+    </section> 
+
+    <footer>
+      <p>Visitanos en:</p>  
+      <div class="pie">      
+        <i class="fa-brands fa-instagram"><a href="#" target="_blank" style="color:white ;"> Instagram</a></i>
+        <i class="fa-brands fa-facebook"><a href="#" target="_blank" style="color:white ;"> Facebook</a></i>
+        <i class="fa-brands fa-youtube"> <a href="#" target="_blank" style="color:white ;"> Youtube</a></i>
+     </div>       
+    </footer> 
+
+  </main>  
+
+</body>
+</html>
